@@ -1,0 +1,16 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <a href="{{ url_for('login') }}">
+          Login
+        </a>
+        <a href="{{ url_for('registration') }}">
+          Registration
+        </a>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}
+  {% if user %}
+    {{ user.username }} - BestToDo!
+  {% else %}
+    BestToDo!
+  {% endif %}
+{% endblock %}
+
+{% block navbar %}{% endblock %}
+
+{% block content %}{% endblock %}
