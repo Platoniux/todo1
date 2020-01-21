@@ -4,8 +4,8 @@ from flask_migrate import Migrate
 from flask_bootstrap import Bootstrap
 from flask_login import LoginManager
 from config import Config
-
-
+# 'https://pythonise.com/categories/python/python-minify-js-css-compile-scss'
+# 'https://github.com/sass/libsass-python'
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 app.config.from_object(Config)
