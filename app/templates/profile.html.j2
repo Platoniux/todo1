@@ -1,0 +1,14 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>HI</h1>
+        <a class="btn btn-primary" href="{{ url_for('logout')}}">
+          LOGOUT
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

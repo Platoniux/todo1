@@ -1,15 +1,21 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-  <section class="container">
+  <section class="container bg-info">
     <div class="row">
       <div class="col">
-        <a class="btn" href="{{ url_for('login') }}">
-          Login
-        </a>
-        <a class="btn" href="{{ url_for('registration') }}">
-          Registration
-        </a>
+        <!-- <div class="center-block"> -->
+          <a class="btn btn-info" href="{{ url_for('login') }}">
+            <strong class="text-uppercase">
+              Login
+            </strong>
+          </a>
+          <a class="btn btn-primary" href="{{ url_for('registration') }}">
+            <strong class="text-uppercase">
+              Registration
+            </strong>
+          </a>
+        <!-- </div> -->
       </div>
     </div>
   </section>
